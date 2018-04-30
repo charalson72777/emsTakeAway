@@ -1,10 +1,4 @@
-﻿/*
-    Theme Name: Delicious
-    Theme URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
-
+﻿
 body {
     font-size: 15px;
     line-height: 1.52;
@@ -68,7 +62,100 @@ table {
     color: #FFB03B;
 }
 
-.sidenav {
+.navBar {
+    display: none;
+}
+
+.nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.nav-link {
+    display: block;
+    padding: .5em 1em
+}
+
+    .nav-link:focus,
+    .nav-link:hover {
+        text-decoration: none
+    }
+
+    .nav-link.disabled {
+        color: #636c72;
+        cursor: not-allowed
+    }
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd
+}
+
+    .nav-tabs .nav-item {
+        margin-bottom: -1px
+    }
+
+    .nav-tabs .nav-link {
+        border: 1px solid transparent;
+        border-top-right-radius: .25rem;
+        border-top-left-radius: .25rem
+    }
+
+        .nav-tabs .nav-link:focus,
+        .nav-tabs .nav-link:hover {
+            border-color: #eceeef #eceeef #ddd
+        }
+
+        .nav-tabs .nav-link.disabled {
+            color: #636c72;
+            background-color: transparent;
+            border-color: transparent
+        }
+
+        .nav-tabs .nav-item.show .nav-link,
+        .nav-tabs .nav-link.active {
+            color: #464a4c;
+            background-color: #fff;
+            border-color: #ddd #ddd #fff
+        }
+
+    .nav-tabs .dropdown-menu {
+        margin-top: -1px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0
+    }
+
+.nav-pills .nav-link {
+    border-radius: .25rem
+}
+
+    .nav-pills .nav-item.show .nav-link,
+    .nav-pills .nav-link.active {
+        color: #fff;
+        cursor: default;
+        background-color: #0275d8
+    }
+
+.nav-fill .nav-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center
+}
+
+.nav-justified .nav-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    text-align: center
+}
+/* .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -80,39 +167,35 @@ table {
     padding-top: 60px;
     transition: 0.5s;
 }
-
-    .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s
-    }
-
-        .sidenav a:hover, .offcanvas a:focus {
-            color: #f1f1f1;
-        }
-
-.closebtn {
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+} */
+/* .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px !important;
     margin-left: 50px;
-}
-
-#main {
+} */
+/* #main {
     transition: margin-left .5s;
     padding: 20px;
-}
-
-.menu-icon {
+} */
+/* .menu-icon
+{
     color: #fff;
     font-size: 30px;
     margin-top: 30px;
     cursor: pointer;
-}
+} */
 
 .header-h {
     color: #FFB03B;
